@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+     <input type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white';
+      ">
+    <input type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black';
+      ">
     <h1><a href="index.html">WEB</a></h1>
     <div id="grid">
     <ol>
@@ -14,25 +22,25 @@
       <li><a href="생활코딩 15.3.html">JavaScript</a></li>
     </ol>
       <div id="article">
-<h2>HTML</h2>
+<h2 style="background-color:lightskyblue; color:powderblue;">HTML</h2>
 <p><a href="https://www.w3.org/TR/2014/REC-html5-20141028/"target="_blank" title="html5 specification">
-Hypertext Markup Language (HTML)</a> is
+  <span id="first" class="js">Hypertext Markup Language (HTML)</span></a> is
 the standard markup language for
 creating <strong>web pages and <u>web applications</u></strong>.<br><br>
-Web browsers receive HTML documents
+  Web browsers receive <span id="first" class="js">HTML</span> documents
 from a web server or from local storage
 and render them into multimedia web pages.<br><br>
-HTML describes the structure of a web page
+  <span id="first" class="js">HTML</span> describes the structure of a web page
 semantically and originally included cues
 for the appearance of the document.
 <img src="coding-img.jpg" width="75%"></p>
-<p style= "margin-top: 45px";>HTML elements are the building blocks of HTML pages.<br><br>
-With HTML constructs, images andother objects,
+        <p style= "margin-top: 45px";><span id="first" class="js">HTML</span> elements are the building blocks of <span id="first" class="js">HTML</span> pages.<br><br>
+          With <span id="first" class="js">HTML</span> constructs, images andother objects,
 such as interactive forms, may be embedded into the rendered page.<br><br>
 It provides a means to create structured docuemtns by
 denoting structural semantics for text such as headings,
 paragraphs, lists, links, quotes and other items.<br><br>
-HTML elements aredelineated by tags, written angle brackets.</p>
+          <span id="first" class="js">HTML</span> elements aredelineated by tags, written angle brackets.</p>
       </div>
     </div>
   </body>
